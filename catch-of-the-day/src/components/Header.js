@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = props => (
+export default props => (
   <header className="top">
     <h1>
       Catch
@@ -15,5 +15,3 @@ const Header = props => (
     </h3>
   </header>
 );
-
-export default Header;
